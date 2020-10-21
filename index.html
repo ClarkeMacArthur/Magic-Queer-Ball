@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links to stylesheet and Google Webfonts -->
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <title>Magic Queer Ball</title>
+</head>
+<body>
+    <div class="flex_container">
+        <h1>Magic Q Ball</h1>
+        <!-- div class to align input and label properly -->
+
+        <div class=label_flex>
+            <label for="input">Ask a Queerstion!</label>
+            <input type="text" id="input" />
+        </div>
+            <div class="flex_container2">
+                <!-- div for rainbow strip background using linear gradient -->
+
+                <div class="rainbow_strip">
+                    <!-- div to build the q-ball -->
+                    <div id="q_ball" class="q_ball">
+                        <div class="answer">
+                            <p id="q_letter" class="q_ball">Q</p>
+                            <!-- empty paragaph tag for the answer from javascript to occupy -->
+
+                            <p id="answer" class="answer"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <button id="button">
+                Shake it, Shake it gooooood!
+            </button>
+        </div>
+        <!-- script tags, link to Javascript and Jquery link -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+</body>
+<footer>
+    <p>Created at <a href="www.junocollege.com">Juno College</a></p>
+</footer>
+</html>
